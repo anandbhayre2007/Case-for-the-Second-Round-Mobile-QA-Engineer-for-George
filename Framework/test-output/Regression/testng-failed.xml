@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression]">
+  <test name="Loan EMI CALC(failed)">
+    <parameter name="port" value="4723"/>
+    <parameter name="ipAddress" value="127.0.0.1"/>
+    <parameter name="devicename" value="83d6e4847d44"/>
+    <parameter name="version" value="7.1.2"/>
+    <classes>
+      <class name="testScripts.Tc_EMI_Calculator_01">
+        <methods>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+          <include name="script2"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="script" invocation-numbers="2"/>
+        </methods>
+      </class> <!-- testScripts.Tc_EMI_Calculator_01 -->
+    </classes>
+  </test> <!-- Loan EMI CALC(failed) -->
+</suite> <!-- Failed suite [Regression] -->

@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression" duration-ms="404661" started-at="2018-06-17T05:04:16Z" finished-at="2018-06-17T05:11:01Z">
+    <groups>
+    </groups>
+    <test name="Set Up" duration-ms="9" started-at="2018-06-17T05:04:16Z" finished-at="2018-06-17T05:04:16Z">
+    </test> <!-- Set Up -->
+    <test name="Loan EMI CALC" duration-ms="204000" started-at="2018-06-17T05:04:16Z" finished-at="2018-06-17T05:07:40Z">
+      <class name="testScripts.Tc_EMI_Calculator_01">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testScripts.Tc_EMI_Calculator_01@59494225]" name="setup" is-config="true" duration-ms="54946" started-at="2018-06-17T10:34:16Z" finished-at="2018-06-17T10:35:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[83d6e4847d44]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7.1.2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[4723]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="script(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:testScripts.Tc_EMI_Calculator_01@59494225]" name="script" duration-ms="46696" started-at="2018-06-17T10:35:12Z" data-provider="getData" finished-at="2018-06-17T10:35:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Years]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- script -->
+        <test-method status="PASS" signature="script(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:testScripts.Tc_EMI_Calculator_01@59494225]" name="script" duration-ms="42759" started-at="2018-06-17T10:35:59Z" data-provider="getData" finished-at="2018-06-17T10:36:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Months]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- script -->
+        <test-method status="PASS" signature="script(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:testScripts.Tc_EMI_Calculator_01@59494225]" name="script" duration-ms="42481" started-at="2018-06-17T10:36:42Z" data-provider="getData" finished-at="2018-06-17T10:37:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Years]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- script -->
+        <test-method status="PASS" signature="script2()[pri:2, instance:testScripts.Tc_EMI_Calculator_01@59494225]" name="script2" duration-ms="7488" started-at="2018-06-17T10:37:24Z" finished-at="2018-06-17T10:37:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- script2 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testScripts.Tc_EMI_Calculator_01@59494225]" name="teardown" is-config="true" duration-ms="8817" started-at="2018-06-17T10:37:32Z" finished-at="2018-06-17T10:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testScripts.Tc_EMI_Calculator_01 -->
+    </test> <!-- Loan EMI CALC -->
+    <test name="Loan EMI CALC 2" duration-ms="200387" started-at="2018-06-17T05:07:40Z" finished-at="2018-06-17T05:11:01Z">
+      <class name="testScripts.Tc_EMI_Calculator_02">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:testScripts.Tc_EMI_Calculator_02@ff5b51f]" name="initialize" is-config="true" duration-ms="732" started-at="2018-06-17T10:34:15Z" finished-at="2018-06-17T10:34:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testScripts.Tc_EMI_Calculator_02@ff5b51f]" name="setup" is-config="true" duration-ms="51945" started-at="2018-06-17T10:37:40Z" finished-at="2018-06-17T10:38:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[83d6e4847d44]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7.1.2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[4723]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="script(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:testScripts.Tc_EMI_Calculator_02@ff5b51f]" name="script" duration-ms="42648" started-at="2018-06-17T10:38:33Z" data-provider="getData" finished-at="2018-06-17T10:39:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Years]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- script -->
+        <test-method status="PASS" signature="script(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:testScripts.Tc_EMI_Calculator_02@ff5b51f]" name="script" duration-ms="44926" started-at="2018-06-17T10:39:15Z" data-provider="getData" finished-at="2018-06-17T10:40:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Months]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- script -->
+        <test-method status="PASS" signature="script(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:testScripts.Tc_EMI_Calculator_02@ff5b51f]" name="script" duration-ms="44521" started-at="2018-06-17T10:40:00Z" data-provider="getData" finished-at="2018-06-17T10:40:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Years]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- script -->
+        <test-method status="PASS" signature="script2()[pri:2, instance:testScripts.Tc_EMI_Calculator_02@ff5b51f]" name="script2" duration-ms="7373" started-at="2018-06-17T10:40:45Z" finished-at="2018-06-17T10:40:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- script2 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testScripts.Tc_EMI_Calculator_02@ff5b51f]" name="teardown" is-config="true" duration-ms="8870" started-at="2018-06-17T10:40:52Z" finished-at="2018-06-17T10:41:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testScripts.Tc_EMI_Calculator_02@ff5b51f]" name="tearDown" is-config="true" duration-ms="816" started-at="2018-06-17T10:41:01Z" finished-at="2018-06-17T10:41:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testScripts.Tc_EMI_Calculator_02 -->
+    </test> <!-- Loan EMI CALC 2 -->
+  </suite> <!-- Regression -->
+</testng-results>

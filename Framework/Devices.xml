@@ -1,0 +1,40 @@
+<suite name="Regression" >
+	
+	<test name="Set Up">
+		<classes>
+			<class name="driver.Driver" />
+		</classes>
+	</test>
+	
+	<test name="Loan EMI CALC">
+	<parameter name="devicename" value="83d6e4847d44"/>
+	<parameter name="version" value="7.1.2"/>
+	<parameter name="ipAddress" value="127.0.0.1"/>
+	<parameter name="port" value="4723"/>
+		<classes>
+			<class name="testScripts.Tc_EMI_Calculator_01" />
+		</classes>
+	</test>
+	
+	<test name="Loan EMI CALC 2">
+	<parameter name="devicename" value="83d6e4847d44"/>
+	<parameter name="version" value="7.1.2"/>
+	<parameter name="ipAddress" value="127.0.0.1"/>
+	<parameter name="port" value="4723"/>
+		<classes>
+			<class name="testScripts.Tc_EMI_Calculator_02" />
+		</classes>
+	</test>
+	
+	
+	
+	<!-- <test name="Loan EMI CALC2">
+	<parameter name="devicename" value="192.168.0.101:5555"/>
+	<parameter name="version" value="7.1.2"/>
+	<parameter name="ipAddress" value="127.0.0.1"/>
+	<parameter name="port" value="4725"/>
+		<classes>
+			<class name="testScripts.Tc_EMI_Calculator_01" />
+		</classes>
+	</test> -->
+</suite>
